@@ -1,21 +1,21 @@
 package com.zaurtregulov.spring.aop.aspects;
 
 public class Student {
-    private System nameSurname;
+    private String nameSurname;
     private int course;
     private double avgGrade;
 
-    public Student(System nameSurname, int course, double avgGrade) {
+    public Student(String nameSurname, int course, double avgGrade) {
         this.nameSurname = nameSurname;
         this.course = course;
         this.avgGrade = avgGrade;
     }
 
-    public System getNameSurname() {
+    public String getNameSurname() {
         return nameSurname;
     }
 
-    public void setNameSurname(System nameSurname) {
+    public void setNameSurname(String nameSurname) {
         this.nameSurname = nameSurname;
     }
 
